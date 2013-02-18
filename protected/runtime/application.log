@@ -1,0 +1,77 @@
+2013/02/12 03:47:42 [error] [php] date() [<a href='function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Krasnoyarsk' for '7.0/no DST' instead (C:\Zend\Apache2\htdocs\yii\framework\track\protected\views\layouts\main.php:51)
+Stack trace:
+#0 C:\Zend\Apache2\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\Zend\Apache2\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 C:\Zend\Apache2\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 C:\Zend\Apache2\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 C:\Zend\Apache2\htdocs\yii\framework\web\CBaseController.php(206): CContentDecorator->run()
+#5 C:\Zend\Apache2\htdocs\yii\framework\web\CBaseController.php(300): SiteController->endWidget()
+#6 C:\Zend\Apache2\htdocs\yii\framework\track\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\Zend\Apache2\htdocs\yii\framework\web\CBaseController.php(126): require()
+#8 C:\Zend\Apache2\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(784): SiteController->renderFile()
+#10 C:\Zend\Apache2\htdocs\yii\framework\track\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\Zend\Apache2\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\Zend\Apache2\htdocs\yii\framework\track\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/framework/track/
+2013/02/17 02:25:41 [error] [php] date() [<a href='function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Krasnoyarsk' for '7.0/no DST' instead (C:\Zend\Apache2\htdocs\yii\framework\track\protected\views\layouts\main.php:51)
+Stack trace:
+#0 C:\Zend\Apache2\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\Zend\Apache2\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 C:\Zend\Apache2\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 C:\Zend\Apache2\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 C:\Zend\Apache2\htdocs\yii\framework\web\CBaseController.php(206): CContentDecorator->run()
+#5 C:\Zend\Apache2\htdocs\yii\framework\web\CBaseController.php(300): SiteController->endWidget()
+#6 C:\Zend\Apache2\htdocs\yii\framework\track\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\Zend\Apache2\htdocs\yii\framework\web\CBaseController.php(126): require()
+#8 C:\Zend\Apache2\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(784): SiteController->renderFile()
+#10 C:\Zend\Apache2\htdocs\yii\framework\track\protected\controllers\SiteController.php(32): SiteController->render()
+#11 C:\Zend\Apache2\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\Zend\Apache2\htdocs\yii\framework\track\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/framework/track/
+2013/02/17 02:32:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "trackmap".' in C:\Zend\Apache2\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(270): CController->missingAction('trackmap')
+#1 C:\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('trackmap')
+#2 C:\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trackmap')
+#3 C:\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\Zend\Apache2\htdocs\yii\framework\track\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/framework/track/index.php?r=site/trackmap
+---
+2013/02/17 02:33:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "trackmap".' in C:\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('trackmap')
+#1 C:\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\Zend\Apache2\htdocs\yii\framework\track\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/framework/track/index.php?r=trackmap
+---
+2013/02/17 03:11:03 [error] [php] require(phpsqlajax_dbinfo.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory (C:\Zend\Apache2\htdocs\yii\framework\track\protected\views\site\trackmap.php:2)
+Stack trace:
+#0 C:\Zend\Apache2\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\Zend\Apache2\htdocs\yii\framework\track\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\Zend\Apache2\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\Zend\Apache2\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\Zend\Apache2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\Zend\Apache2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\Zend\Apache2\htdocs\yii\framework\track\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/framework/track/index.php?r=site/index
